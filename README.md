@@ -56,13 +56,22 @@ The dataset used for this analysis was sourced from [Kaggle: NBA Player Stats](h
 The following visualizations were created as part of the analysis:
 
 1. **Top 5 Players in Points (PTS)**
-2. **Top 5 Players in Assists (AST)**
-3. **Top 5 Players in Rebounds (TRB)**
-4. **Top 5 Players in Blocks (BLK)**
-5. **Top 5 Players in Steals (STL)**
-6. **Overall Top 5 Players (Weighted)**
+![Top 5 Players in PTS](./NBA-playoff analysis/Top_5_Players_PTS.png)
 
-Each visualization was generated using `ggplot2` in R, with specific colors chosen to represent different categories and teams.
+2. **Top 5 Players in Assists (AST)**
+![Top 5 Players in AST](./NBA-playoff analysis/Top_5_Players_AST.png)
+
+3. **Top 5 Players in Rebounds (TRB)**
+![Top 5 Players in TRB](./NBA-playoff analysis/Top_5_Players_TRB.png)
+
+4. **Top 5 Players in Blocks (BLK)**
+![Top 5 Players in BLK](./NBA-playoff analysis/Top_5_Players_BLK.png)
+
+5. **Top 5 Players in Steals (STL)**
+![Top 5 Players in STL](./NBA-playoff analysis/Top_5_Players_STL.png)
+
+6. **Overall Top 5 Players (Weighted)**
+![Overall Top 5 Players](./NBA-playoff analysis/Top_5_Weighted_Overall_Players.png)
 
 ## Conclusion
 
