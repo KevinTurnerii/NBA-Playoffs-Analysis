@@ -65,19 +65,18 @@ The dataset used for this analysis was sourced from Kaggle: NBA Player Stats. It
 
 ## Visualizations
 
-- ![Correlation Matrix (Key Stats)](NBA_Plots/correlation_matrix.png)
-- ![Top 5 Players in Points (PTS)](NBA_Plots/Top_5_Pts.png)
-- ![Top 5 Players in Assists (AST)](NBA_Plots/Top_5_Ast.png)
-- ![Top 5 Players in Rebounds (TRB)](NBA_Plots/Top_5_TRB.png)
-- ![Top 5 Players in Blocks (BLK)](NBA_Plots/Top_5_BLK.png)
-- ![Top 5 Players in Steals (STL)](NBA_Plots/Top_5_STL.png)
-- ![Weighted Overall Score for Top 5 Players](NBA_Plots/Top_5_Overall_weighted.png)
-- ![Sensitivity Analysis: Top 5 Players with Alternate Weights](NBA_Plots/Sensitivity_Analysis.png)
-- ![Regression Model: Actual vs. Predicted Points](NBA_Plots/Regression_Actual_vs_Predicted.png)
-- ![Random Forest Model: Variable Importance](NBA_Plots/Random_Forest_Importance.png)
-- ![PCA Clustering of NBA Players](NBA_Plots/PCA_Clustering_of_NBA_Players.png)
-- ![Radar Chart Comparison: Luka Dončić vs. Giannis Antetokounmpo](NBA_Plots/LukaGiannisRadarChart.png)
-- ![Bar Plot Comparison: Luka Dončić vs. Giannis Antetokounmpo](NBA_Plots/Bar_Plot_Comparison_Luka_Giannis.png)
+- ![Top 5 Players in Points (PTS)](NBA_Plots/Top%205%20Pts.png)
+- ![Top 5 Players in Assists (AST)](NBA_Plots/Top%205%20Ast.png)
+- ![Top 5 Players in Rebounds (TRB)](NBA_Plots/Top%205%20TRB.png)
+- ![Top 5 Players in Blocks (BLK)](NBA_Plots/Top%205%20BLK.png)
+- ![Top 5 Players in Steals (STL)](NBA_Plots/Top%205%20STL.png)
+- ![Weighted Overall Score for Top 5 Players](NBA_Plots/Top%205%20Overall%20weighted.png)
+- ![Sensitivity Analysis: Original vs. Alternate Weightings](NBA_Plots/Top%205%20Sensitivity.png)
+- ![Regression Model: Actual vs. Predicted Points](NBA_Plots/regression_actual_vs_predicted.png)
+- ![Random Forest Model: Variable Importance](NBA_Plots/random_forest_importanceVariable.png)
+- ![PCA Clustering of NBA Players](NBA_Plots/PCA%20Clustering%20of%20NBA%20Players.png)
+- ![Radar Chart Comparison: Luka Dončić vs. Giannis Antetokounmpo](NBA_Plots/LukaGiannisRadarchart.png)
+- ![Bar Plot Comparison: Luka Dončić vs. Giannis Antetokounmpo](NBA_Plots/bar_plot_comparisonLukaGiannis.png)
 
 ## Conclusion
 
