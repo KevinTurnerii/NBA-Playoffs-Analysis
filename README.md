@@ -23,23 +23,21 @@ This project focuses on analyzing NBA player performance during the 2021-2022 pl
 
 The dataset used for this analysis was sourced from Kaggle: NBA Player Stats. It includes detailed player statistics from the 2021-2022 NBA playoffs.
 
-## Visualizations
+## Methodology
 
-- ![Top 5 Assists](NBA-playoff%20analysis/Top%205%20Ast.png)
-- ![Top 5 Blocks](NBA-playoff%20analysis/Top%205%20BLK.png)
-- ![Top 5 Points](NBA-playoff%20analysis/Top%205%20Pts.png)
-- ![Top 5 Rebounds](NBA-playoff%20analysis/Top%205%20TRB.png)
-- ![Top 5 Steals](NBA-playoff%20analysis/Top%205%20STL.png)
-- ![Top 5 Overall Weighted](NBA-playoff%20analysis/Top%205%20Overall%20weighted.png)
-- ![Correlation Matrix](NBA-playoff%20analysis/correlation.matrix.png)
-- ![Regression Actual vs Predicted](NBA-playoff%20analysis/regression_actual_vs_predicted.png)
-- ![Cross Validation RMSE vs Predictors](NBA-playoff%20analysis/cross_validation_rmse_vs_predictors.png)
-- ![Random Forest Importance](NBA-playoff%20analysis/random_forest_importanceVariable.png)
-- ![PCA Clustering of NBA Players](NBA-playoff%20analysis/PCA%20Clustering%20of%20NBA%20Players.png)
-- ![Luka vs Giannis Radar Chart](NBA-playoff%20analysis/LukaGiannisRadarchart.png)
-- ![Luka vs Giannis Bar Plot](NBA-playoff%20analysis/bar_plot_comparisonLukaGiannis.png)
-- ![Sensitivity Analysis](NBA-playoff%20analysis/sensitivity%20analysis.png)
-
+1. **Data Collection:** The dataset was loaded and inspected to understand its structure and contents.
+2. **Data Cleaning:**
+   - Player names were corrected for special characters and inconsistencies.
+   - Missing values were handled using median imputation for numeric columns.
+3. **Feature Engineering:**
+   - Calculated the Assist-to-Turnover (AST/TO) ratio to enhance analysis in the assists category.
+4. **Visualization:**
+   - Created a correlation matrix to understand relationships between key stats.
+   - Visualized top players in key categories using bar plots.
+5. **Modeling and Analysis:**
+   - Conducted regression and random forest modeling to predict player performance.
+   - Performed clustering and PCA for player categorization.
+   - Compared key players using radar charts and side-by-side bar plots.
 
 ## Key Insights
 
@@ -67,20 +65,20 @@ The dataset used for this analysis was sourced from Kaggle: NBA Player Stats. It
 
 ## Visualizations
 
-- ![Luka vs Giannis Radar Chart](NBA-playoff analysis/LukaGiannisRadarchart.png)
-- ![PCA Clustering of NBA Players](NBA-playoff analysis/PCA Clustering of NBA Players.png)
-- ![Top 5 Players in Assists](NBA-playoff analysis/Top 5 Ast.png)
-- ![Top 5 Players in Blocks](NBA-playoff analysis/Top 5 BLK.png)
-- ![Top 5 Overall Weighted Scores](NBA-playoff analysis/Top 5 Overall weighted.png)
-- ![Top 5 Players in Points](NBA-playoff analysis/Top 5 Pts.png)
-- ![Top 5 Players in Steals](NBA-playoff analysis/Top 5 STL.png)
-- ![Top 5 Players in Rebounds](NBA-playoff analysis/Top 5 TRB.png)
-- ![Luka vs Giannis Bar Plot Comparison](NBA-playoff analysis/bar_plot_comparisonLukaGiannis.png)
-- ![Correlation Matrix](NBA-playoff analysis/correlation.matrix.png)
-- ![Cross-Validation RMSE vs Number of Predictors](NBA-playoff analysis/cross_validation_rmse_vs_predictors.png)
-- ![Random Forest Variable Importance](NBA-playoff analysis/random_forest_importanceVariable.png)
-- ![Regression Model: Actual vs. Predicted Points](NBA-playoff analysis/regression_actual_vs_predicted.png)
-- ![Sensitivity Analysis: Original vs. Alternate Weightings](NBA-playoff analysis/sensitivity analysis.png)
+- ![Top 5 Assists](NBA-playoff%20analysis/Top%205%20Ast.png)
+- ![Top 5 Blocks](NBA-playoff%20analysis/Top%205%20BLK.png)
+- ![Top 5 Points](NBA-playoff%20analysis/Top%205%20Pts.png)
+- ![Top 5 Rebounds](NBA-playoff%20analysis/Top%205%20TRB.png)
+- ![Top 5 Steals](NBA-playoff%20analysis/Top%205%20STL.png)
+- ![Top 5 Overall Weighted](NBA-playoff%20analysis/Top%205%20Overall%20weighted.png)
+- ![Correlation Matrix](NBA-playoff%20analysis/correlation.matrix.png)
+- ![Regression Actual vs Predicted](NBA-playoff%20analysis/regression_actual_vs_predicted.png)
+- ![Cross Validation RMSE vs Predictors](NBA-playoff%20analysis/cross_validation_rmse_vs_predictors.png)
+- ![Random Forest Importance](NBA-playoff%20analysis/random_forest_importanceVariable.png)
+- ![PCA Clustering of NBA Players](NBA-playoff%20analysis/PCA%20Clustering%20of%20NBA%20Players.png)
+- ![Luka vs Giannis Radar Chart](NBA-playoff%20analysis/LukaGiannisRadarchart.png)
+- ![Luka vs Giannis Bar Plot](NBA-playoff%20analysis/bar_plot_comparisonLukaGiannis.png)
+- ![Sensitivity Analysis](NBA-playoff%20analysis/sensitivity%20analysis.png)
 
 ## Conclusion
 
