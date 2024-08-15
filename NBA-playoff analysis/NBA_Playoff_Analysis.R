@@ -49,9 +49,10 @@ nba_data <- nba_data %>%
 # --------------------------------------------------------------
 # Correlation Matrix with Improved Annotation
 # --------------------------------------------------------------
-correlation_matrix <- cor(nba_data %>% select_if(is.numeric))
-ggcorrplot(correlation_matrix, lab = TRUE, title = "Correlation Matrix") +
-    theme(axis.text.x = element_text(angle = 90, hjust = 1, size = 8),
+selected_vars <- nba_data %>% select(PTS, AST, TRB, BLK, STL, AST_TO, `eFG%`, `FT%`, MP)
+correlation_matrix <- cor(selected_vars, use = "complete.obs")
+ggcorrplot(correlation_matrix, lab = TRUE, title = "Correlation Matrix (Key Stats)") +
+    theme(axis.text.x = element_text(angle = 45, hjust = 1, size = 8),
           axis.text.y = element_text(size = 8),
           plot.title = element_text(hjust = 0.5, size = 14))
 
@@ -150,7 +151,6 @@ ggplot(top_5_overall_weighted, aes(x = reorder(Player, -Weighted_Overall_Score),
     theme(axis.text.x = element_text(angle = 45, hjust = 1))
 
 # Sensitivity Analysis: Explore how changing weights impacts player rankings
-# Let's adjust the weights and recalculate the overall score
 nba_weights_alt <- c(PTS = 0.4, AST = 0.2, TRB = 0.2, STL = 0.1, BLK = 0.1)
 
 nba_data_overall_weighted_alt <- nba_data %>%
@@ -271,9 +271,9 @@ expanded_label_data <- pca_df %>%
     group_by(Cluster) %>%
     arrange(PC1, PC2) %>%
     mutate(rank = row_number()) %>%
-    filter((Cluster == 1 & rank <= 20) |  # Keep top 20 in the red cluster
-               (Cluster == 2 & rank <= 25) |  # Keep top 25 in the green cluster
-               (Cluster == 3 & rank <= 15))   # Keep top 15 in the light blue cluster
+    filter((Cluster == 1 & rank <= 20) | 
+               (Cluster == 2 & rank <= 25) | 
+               (Cluster == 3 & rank <= 15))
 
 # Plot the PCA clusters with adjusted number of player labels by cluster and named clusters
 ggplot(pca_df, aes(x = PC1, y = PC2, color = ClusterName, shape = ClusterName)) +
