@@ -74,7 +74,6 @@ The dataset used for this analysis was sourced from Kaggle: NBA Player Stats. It
 - ![Correlation Matrix](NBA-playoff%20analysis/correlation.matrix.png)
 - ![Regression Actual vs Predicted](NBA-playoff%20analysis/regression_actual_vs_predicted.png)
 - ![Cross Validation RMSE vs Predictors](NBA-playoff%20analysis/cross_validation_rmse_vs_predictors.png)
-- ![Random Forest Importance](NBA-playoff%20analysis/random_forest_importanceVariable.png)
 - ![PCA Clustering of NBA Players](NBA-playoff%20analysis/PCA%20Clustering%20of%20NBA%20Players.png)
 - ![Luka vs Giannis Radar Chart](NBA-playoff%20analysis/LukaGiannisRadarchart.png)
 - ![Luka vs Giannis Bar Plot](NBA-playoff%20analysis/bar_plot_comparisonLukaGiannis.png)
