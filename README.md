@@ -65,21 +65,19 @@ The dataset used for this analysis was sourced from Kaggle: NBA Player Stats. It
 
 ## Visualizations
 
-(Note: Please insert your visualizations here once you generate them)
-
-- [INSERT IMAGE] Correlation Matrix (Key Stats)
-- [INSERT IMAGE] Top 5 Players in Points (PTS)
-- [INSERT IMAGE] Top 5 Players in Assists (AST)
-- [INSERT IMAGE] Top 5 Players in Rebounds (TRB)
-- [INSERT IMAGE] Top 5 Players in Blocks (BLK)
-- [INSERT IMAGE] Top 5 Players in Steals (STL)
-- [INSERT IMAGE] Weighted Overall Score for Top 5 Players
-- [INSERT IMAGE] Sensitivity Analysis: Top 5 Players with Alternate Weights
-- [INSERT IMAGE] Regression Model: Actual vs. Predicted Points
-- [INSERT IMAGE] Random Forest Model: Variable Importance
-- [INSERT IMAGE] PCA Clustering of NBA Players
-- [INSERT IMAGE] Radar Chart Comparison: Luka Dončić vs. Giannis Antetokounmpo
-- [INSERT IMAGE] Bar Plot Comparison: Luka Dončić vs. Giannis Antetokounmpo
+- ![Correlation Matrix (Key Stats)](correlation.matrix.png)
+- ![Top 5 Players in Points (PTS)](Top_5_Pts.png)
+- ![Top 5 Players in Assists (AST)](Top_5_Ast.png)
+- ![Top 5 Players in Rebounds (TRB)](Top_5_TRB.png)
+- ![Top 5 Players in Blocks (BLK)](Top_5_BLK.png)
+- ![Top 5 Players in Steals (STL)](Top_5_STL.png)
+- ![Weighted Overall Score for Top 5 Players](Top_5_Overall_weighted.png)
+- ![Sensitivity Analysis: Original vs. Alternate Weightings](sensitivity_analysis.png)
+- ![Regression Model: Actual vs. Predicted Points](regression_actual_vs_predicted.png)
+- ![Random Forest Model: Variable Importance](random_forest_importanceVariable.png)
+- ![PCA Clustering of NBA Players](PCA_Clustering_of_NBA_Players.png)
+- ![Radar Chart Comparison: Luka Dončić vs. Giannis Antetokounmpo](LukaGiannisRadarchart.png)
+- ![Bar Plot Comparison: Luka Dončić vs. Giannis Antetokounmpo](bar_plot_comparisonLukaGiannis.png)
 
 ## Conclusion
 
@@ -110,6 +108,7 @@ The analysis successfully identified key players and provided deep insights into
 1. **Clone the Repository:**
    ```bash
    git clone https://github.com/yourusername/NBA-Playoffs-Analysis.git
+
 
 
 2. Install Required Libraries:
