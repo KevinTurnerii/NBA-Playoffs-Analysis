@@ -65,19 +65,20 @@ The dataset used for this analysis was sourced from Kaggle: NBA Player Stats. It
 
 ## Visualizations
 
-- ![Correlation Matrix (Key Stats)](NBA-playoff analysis/correlation.matrix.png)
-- ![Top 5 Players in Points (PTS)](NBA-playoff analysis/Top 5 Pts.png)
-- ![Top 5 Players in Assists (AST)](NBA-playoff analysis/Top 5 Ast.png)
-- ![Top 5 Players in Rebounds (TRB)](NBA-playoff analysis/Top 5 TRB.png)
-- ![Top 5 Players in Blocks (BLK)](NBA-playoff analysis/Top 5 BLK.png)
-- ![Top 5 Players in Steals (STL)](NBA-playoff analysis/Top 5 STL.png)
-- ![Weighted Overall Score for Top 5 Players](NBA-playoff analysis/Top 5 Overall weighted.png)
-- ![Sensitivity Analysis: Original vs. Alternate Weightings](NBA-playoff analysis/Sensitivity Analysis.png)
-- ![Regression Model: Actual vs. Predicted Points](NBA-playoff analysis/regression_actual_vs_predicted.png)
-- ![Random Forest Model: Variable Importance](NBA-playoff analysis/random_forest_importanceVariable.png)
+- ![Luka vs Giannis Radar Chart](NBA-playoff analysis/LukaGiannisRadarchart.png)
 - ![PCA Clustering of NBA Players](NBA-playoff analysis/PCA Clustering of NBA Players.png)
-- ![Radar Chart Comparison: Luka Dončić vs. Giannis Antetokounmpo](NBA-playoff analysis/LukaGiannisRadarchart.png)
-- ![Bar Plot Comparison: Luka Dončić vs. Giannis Antetokounmpo](NBA-playoff analysis/bar_plot_comparisonLukaGiannis.png)
+- ![Top 5 Players in Assists](NBA-playoff analysis/Top 5 Ast.png)
+- ![Top 5 Players in Blocks](NBA-playoff analysis/Top 5 BLK.png)
+- ![Top 5 Overall Weighted Scores](NBA-playoff analysis/Top 5 Overall weighted.png)
+- ![Top 5 Players in Points](NBA-playoff analysis/Top 5 Pts.png)
+- ![Top 5 Players in Steals](NBA-playoff analysis/Top 5 STL.png)
+- ![Top 5 Players in Rebounds](NBA-playoff analysis/Top 5 TRB.png)
+- ![Luka vs Giannis Bar Plot Comparison](NBA-playoff analysis/bar_plot_comparisonLukaGiannis.png)
+- ![Correlation Matrix](NBA-playoff analysis/correlation.matrix.png)
+- ![Cross-Validation RMSE vs Number of Predictors](NBA-playoff analysis/cross_validation_rmse_vs_predictors.png)
+- ![Random Forest Variable Importance](NBA-playoff analysis/random_forest_importanceVariable.png)
+- ![Regression Model: Actual vs. Predicted Points](NBA-playoff analysis/regression_actual_vs_predicted.png)
+- ![Sensitivity Analysis: Original vs. Alternate Weightings](NBA-playoff analysis/sensitivity analysis.png)
 
 ## Conclusion
 
