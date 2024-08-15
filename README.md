@@ -65,18 +65,19 @@ The dataset used for this analysis was sourced from Kaggle: NBA Player Stats. It
 
 ## Visualizations
 
-- ![Top 5 Players in Points (PTS)](NBA_Plots/Top%205%20Pts.png)
-- ![Top 5 Players in Assists (AST)](NBA_Plots/Top%205%20Ast.png)
-- ![Top 5 Players in Rebounds (TRB)](NBA_Plots/Top%205%20TRB.png)
-- ![Top 5 Players in Blocks (BLK)](NBA_Plots/Top%205%20BLK.png)
-- ![Top 5 Players in Steals (STL)](NBA_Plots/Top%205%20STL.png)
-- ![Weighted Overall Score for Top 5 Players](NBA_Plots/Top%205%20Overall%20weighted.png)
-- ![Sensitivity Analysis: Original vs. Alternate Weightings](NBA_Plots/Top%205%20Sensitivity.png)
-- ![Regression Model: Actual vs. Predicted Points](NBA_Plots/regression_actual_vs_predicted.png)
-- ![Random Forest Model: Variable Importance](NBA_Plots/random_forest_importanceVariable.png)
-- ![PCA Clustering of NBA Players](NBA_Plots/PCA%20Clustering%20of%20NBA%20Players.png)
-- ![Radar Chart Comparison: Luka Dončić vs. Giannis Antetokounmpo](NBA_Plots/LukaGiannisRadarchart.png)
-- ![Bar Plot Comparison: Luka Dončić vs. Giannis Antetokounmpo](NBA_Plots/bar_plot_comparisonLukaGiannis.png)
+- ![Correlation Matrix (Key Stats)](NBA-playoff analysis/correlation.matrix.png)
+- ![Top 5 Players in Points (PTS)](NBA-playoff analysis/Top 5 Pts.png)
+- ![Top 5 Players in Assists (AST)](NBA-playoff analysis/Top 5 Ast.png)
+- ![Top 5 Players in Rebounds (TRB)](NBA-playoff analysis/Top 5 TRB.png)
+- ![Top 5 Players in Blocks (BLK)](NBA-playoff analysis/Top 5 BLK.png)
+- ![Top 5 Players in Steals (STL)](NBA-playoff analysis/Top 5 STL.png)
+- ![Weighted Overall Score for Top 5 Players](NBA-playoff analysis/Top 5 Overall weighted.png)
+- ![Sensitivity Analysis: Original vs. Alternate Weightings](NBA-playoff analysis/Sensitivity Analysis.png)
+- ![Regression Model: Actual vs. Predicted Points](NBA-playoff analysis/regression_actual_vs_predicted.png)
+- ![Random Forest Model: Variable Importance](NBA-playoff analysis/random_forest_importanceVariable.png)
+- ![PCA Clustering of NBA Players](NBA-playoff analysis/PCA Clustering of NBA Players.png)
+- ![Radar Chart Comparison: Luka Dončić vs. Giannis Antetokounmpo](NBA-playoff analysis/LukaGiannisRadarchart.png)
+- ![Bar Plot Comparison: Luka Dončić vs. Giannis Antetokounmpo](NBA-playoff analysis/bar_plot_comparisonLukaGiannis.png)
 
 ## Conclusion
 
@@ -118,6 +119,7 @@ Load the dataset into your R environment and run the provided R script NBA_Playo
 **Acknowledgments**
 
 Data Source: Kaggle
+
 Tools: R, ggplot2, dplyr, randomForest, ggcorrplot, ggrepel, caret, tidyr, fmsb
 
  
